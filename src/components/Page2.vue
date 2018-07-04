@@ -1,6 +1,7 @@
 <template>
   <div class="page">
     page2
+    <p>test</p>
     <router-link to="/page2/page2Children">page2dhildren</router-link>
     <router-view></router-view>
   </div>
