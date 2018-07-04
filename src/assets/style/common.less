@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+}
+a,a:hover,a:visited,a:active{
+  text-decoration: none;
+}
+.page{
+  margin: 60px 30px;
+}
+// 公共样式
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+.pull-right{
+  float: right;
+}
+// 清除浮动
+.clearfix{
+  zoom : 1;
+  &:after
+    {
+      content: '';
+      display: block;
+      clear: both;
+    }
+}
+//单行文本省略
+.font-over{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+// 绝对定位居中
+.auto-center(){
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+    

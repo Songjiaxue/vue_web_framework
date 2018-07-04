@@ -1,0 +1,9 @@
+
+//多行文本省略
+.text-over(@i){
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: @i;
+  -webkit-box-orient: vertical;
+}
